@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DatePicker</string>
+    <string name="format_date">%d-%d-%d</string>
+</resources>
