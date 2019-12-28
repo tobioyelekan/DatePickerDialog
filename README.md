@@ -46,8 +46,12 @@ val date = (getString(R.string.format_date, year, month.inc(), day))
 Toast.makeText(this, date, Toast.LENGTH_LONG).show()
 })
 ```
+
 Lastly, call `show` to display the date picker
 ```
 datePicker.show(supportFragmentManager, "")
 ```
-Check sample code <a href=https://github.com/tobioyelekan/DatePickerDialog/tree/master/app>here</a>
+
+Oh wait, what about the dialog button color? Gotcha ;) check this SO <a href=https://stackoverflow.com/a/42373688/8900747> answer</a>
+
+Also check the sample app code <a href=https://github.com/tobioyelekan/DatePickerDialog/tree/master/app>here</a>
